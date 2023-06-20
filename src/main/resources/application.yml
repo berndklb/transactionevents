@@ -1,0 +1,17 @@
+
+server:
+  port: 8091
+  
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/transactionevents
+      database: transactionevents
+      uuid-representation: standard
+
+
+
+logging.level:
+  root: info
+  org.springframework.context: TRACE
+
